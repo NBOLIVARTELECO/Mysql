@@ -14,6 +14,7 @@ public class Operaciones {
         try {
 
             PreparedStatement consulta;
+            //nuevo comentario util
 
             consulta = conexion.prepareStatement("INSERT INTO " + this.tabla
                     + "(CEDULA, NOMBRE, TELEFONO) VALUES(?,?,?)");
